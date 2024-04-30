@@ -1,0 +1,893 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "module2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "module2",
+        "description": "module2",
+        "detail": "module2",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "food",
+        "description": "food",
+        "detail": "food",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "B&C",
+        "description": "B&C",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfor num in numbers:\n    if num == 6:\n        print(\"Found 6, exiting the loop.\")\n        break\n    print(num)\nprint(\"Execution completed !\")\n# Using continue\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfor num in numbers:",
+        "detail": "B&C",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "B&C",
+        "description": "B&C",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfor num in numbers:\n    if num == 6:\n        print(\"Found 6, Skipped.\")\n        continue\n    print(num)\nprint(\"Execution completed !\")\n#Using while loop\nnum=0\nwhile(num<=100):",
+        "detail": "B&C",
+        "documentation": {}
+    },
+    {
+        "label": "current_datetime",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "current_datetime = y.datetime.now()\nprint(\"Current date and time:\", current_datetime)\n# Create a specific date\nspecific_date = y.date(2023, 12, 28)\nprint(\"Specific date:\", specific_date)\n# Create a specific time\nspecific_time = y.time(12, 30, 45)\nprint(\"Specific time:\", specific_time)\n# Perform date arithmetic\ndate1 = y.date(2023, 12, 28)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "specific_date",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "specific_date = y.date(2023, 12, 28)\nprint(\"Specific date:\", specific_date)\n# Create a specific time\nspecific_time = y.time(12, 30, 45)\nprint(\"Specific time:\", specific_time)\n# Perform date arithmetic\ndate1 = y.date(2023, 12, 28)\ndate2 = y.date(2023, 12, 31)\ndifference = date2 - date1\nprint(\"Difference in days:\", difference.days)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "specific_time",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "specific_time = y.time(12, 30, 45)\nprint(\"Specific time:\", specific_time)\n# Perform date arithmetic\ndate1 = y.date(2023, 12, 28)\ndate2 = y.date(2023, 12, 31)\ndifference = date2 - date1\nprint(\"Difference in days:\", difference.days)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "date1",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "date1 = y.date(2023, 12, 28)\ndate2 = y.date(2023, 12, 31)\ndifference = date2 - date1\nprint(\"Difference in days:\", difference.days)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "date2",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "date2 = y.date(2023, 12, 31)\ndifference = date2 - date1\nprint(\"Difference in days:\", difference.days)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "difference",
+        "kind": 5,
+        "importPath": "date&time",
+        "description": "date&time",
+        "peekOfCode": "difference = date2 - date1\nprint(\"Difference in days:\", difference.days)",
+        "detail": "date&time",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 2,
+        "importPath": "Food",
+        "description": "Food",
+        "peekOfCode": "def items(food):\n    print(\"name of the food : \",food)",
+        "detail": "Food",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def z(fname):\n    print(\"My name is: \",fname)\nz(\"Hamdan\") #fn call\n#create a function using 2 arguments\ndef y(fname,age):\n    print(\"My name is \",fname,\"and I'm \",age,\"Years old\")\ny(\"Hamdan\",65)\n#create a function using 3 arguments\ndef new(fname,lname,age):#formal paramtrs/placeholders\n    print(fname,\"\",lname,\"\",age)",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def y(fname,age):\n    print(\"My name is \",fname,\"and I'm \",age,\"Years old\")\ny(\"Hamdan\",65)\n#create a function using 3 arguments\ndef new(fname,lname,age):#formal paramtrs/placeholders\n    print(fname,\"\",lname,\"\",age)\nnew(\"Hamdan\",\"Mohammed\",78) #actual paramtrs\n#Arbitrary argument\ndef fn(*kids):#don't know the number of arguments\n    print(\"The eldest child is: \",kids[0])",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def new(fname,lname,age):#formal paramtrs/placeholders\n    print(fname,\"\",lname,\"\",age)\nnew(\"Hamdan\",\"Mohammed\",78) #actual paramtrs\n#Arbitrary argument\ndef fn(*kids):#don't know the number of arguments\n    print(\"The eldest child is: \",kids[0])\nfn(\"Hamdan\",\"Ameen\",\"Ali\")  \n#Keyword argument\ndef name(child1, child2, child3):\n    print(\"The eldest child is :\",child3)",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "fn",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def fn(*kids):#don't know the number of arguments\n    print(\"The eldest child is: \",kids[0])\nfn(\"Hamdan\",\"Ameen\",\"Ali\")  \n#Keyword argument\ndef name(child1, child2, child3):\n    print(\"The eldest child is :\",child3)\n    print(\"The youngest child is :\",child1)\nname(child1=\"Hamdan\",child2=\"Ameen\",child3=\"Ali\")\n#Arbitrary keyword argument \ndef n(**students):#don't know the number of keyword arguments",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def name(child1, child2, child3):\n    print(\"The eldest child is :\",child3)\n    print(\"The youngest child is :\",child1)\nname(child1=\"Hamdan\",child2=\"Ameen\",child3=\"Ali\")\n#Arbitrary keyword argument \ndef n(**students):#don't know the number of keyword arguments\n    print(\"First student is :\" , students[\"s1\"])\nn(s1=\"Hamdan\",s2=\"Ameen\")\n#default Parameter\ndef f(Country=\"India\"):",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def n(**students):#don't know the number of keyword arguments\n    print(\"First student is :\" , students[\"s1\"])\nn(s1=\"Hamdan\",s2=\"Ameen\")\n#default Parameter\ndef f(Country=\"India\"):\n    print(\"I'm from\",Country)\nf(\"Sweden\")\nf(\"Norway\")\nf() #when argument isnt passed , it uses default value that is\n    #assigned to it.",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def f(Country=\"India\"):\n    print(\"I'm from\",Country)\nf(\"Sweden\")\nf(\"Norway\")\nf() #when argument isnt passed , it uses default value that is\n    #assigned to it.\n#List as an argument\ndef l(food):\n    for x in food:\n        print(x)",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def l(food):\n    for x in food:\n        print(x)\nfruits=[\"Chicken\",\"Chips\",\"Fries\"]\nl(fruits) \n#Tuple as an argument\ndef q(company):\n    for x in company:\n        print(x)\ncompanies=(\"Mercedez\",\"BMW\",\"Ferrari\")",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def q(company):\n    for x in company:\n        print(x)\ncompanies=(\"Mercedez\",\"BMW\",\"Ferrari\")\nq(companies)\n#Set as an argument\ndef e(company):\n    for x in company:\n        print(x)\ncompanies={\"Mercedez\",\"BMW\",\"Ferrari\"}",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def e(company):\n    for x in company:\n        print(x)\ncompanies={\"Mercedez\",\"BMW\",\"Ferrari\"}\ne(companies)\n#Dict as an argument\ndef g(company):\n    for x in company:\n        print(x,company[x])\ncompanies={\"Name\":\"Ameen\",\"Blood group\":\"O+\",\"Age\":20,\"Place\":\"Melattur\"}",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def g(company):\n    for x in company:\n        print(x,company[x])\ncompanies={\"Name\":\"Ameen\",\"Blood group\":\"O+\",\"Age\":20,\"Place\":\"Melattur\"}\ng(companies)\n#return statement\ndef r(x,y):\n    return 5*x*y\nprint(r(1,2))\nprint(r(2,2))",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def r(x,y):\n    return 5*x*y\nprint(r(1,2))\nprint(r(2,2))\nprint(r(3,2))\n#pass statement\ndef r():\n    pass #no output (error avoided)",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 2,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "def r():\n    pass #no output (error avoided)",
+        "detail": "Function",
+        "documentation": {}
+    },
+    {
+        "label": "rectangle",
+        "kind": 6,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "class rectangle:\n    def __init__(self,b,l):\n        self.b=b\n        self.l=l\n    #use 2 methods each\n    def area(self):\n        return self.b*self.l #axb\n    def perimeter(self):\n        return 2*(self.b+self.l) #2(a+b)\na=int(input('enter the breadth :'))",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "mul_numbers",
+        "kind": 2,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "def mul_numbers(num1, num2):\n    print(num1*num2)\nnum1 = float(input(\"Enter the first number: \"))\nnum2 = float(input(\"Enter the second number: \"))\nmul_numbers(num1, num2) #fn. call\n# fibanocci\nn=int(input(\"Enter the Limit : \"))\na,b=0,1\nprint(\"The fibanocci series \")\nprint(a)",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "fact",
+        "kind": 2,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "def fact(n):\n    if (n==1 or n==0):\n        return 1\n    else:\n        return (n*fact(n-1)) \n# print(fact(5))\nnum = int(input(\"Enter a number: \"))\n# using  user-defined \nresult = fact(num)\nprint(\"Factorial of\", num, \"is\", result)",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "count_words",
+        "kind": 2,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "def count_words(sentence):\n    words = sentence.split()\n    return len(words)\ns= input(\"Enter a sentence: \")\nx = count_words(s)\nprint(\"Number of words in the sentence: \" ,x)\n# or\nx=(input(\"enter the sentence:\"))\nwordcount=1\nfor i in x:",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "findlcm",
+        "kind": 2,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "def findlcm(x,y):\n    greater = max(x, y)\n    while (True):\n        if (greater % x==0 and greater % y==0):\n            lcm=greater\n            break\n        greater=greater+1\n    return lcm\nnum1=int(input(\"Enter the first number : \"))\nnum2=int(input(\"Enter the second Number : \"))",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "pal",
+        "kind": 2,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "def pal(num):\n    x=num[::-1]\n    if x==num:\n        print(\"Entered string is a Palindrome\")\n    else:\n        print(\"Entered string is Not a Palindrome\")\np=input(\"Enter the string : \")\npal(p)\n# mul table\nx=int(input(\"Enter the limit: \"))",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "num1 = float(input(\"Enter the first number: \"))\nnum2 = float(input(\"Enter the second number: \"))\nmul_numbers(num1, num2) #fn. call\n# fibanocci\nn=int(input(\"Enter the Limit : \"))\na,b=0,1\nprint(\"The fibanocci series \")\nprint(a)\nprint(b)\nfor i in range (3,n+1):",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "num2 = float(input(\"Enter the second number: \"))\nmul_numbers(num1, num2) #fn. call\n# fibanocci\nn=int(input(\"Enter the Limit : \"))\na,b=0,1\nprint(\"The fibanocci series \")\nprint(a)\nprint(b)\nfor i in range (3,n+1):\n    q=a+b ",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\n# using  user-defined \nresult = fact(num)\nprint(\"Factorial of\", num, \"is\", result)\n# pgm to check whether a number is pos neg or zero\nnum=int(input(\"Enter the number to check : \"))\nif num>0:\n    print(\"Entered Numbered is positive\")\nelif num<0:\n    print(\"Entered Numbered is Negative\")",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "result = fact(num)\nprint(\"Factorial of\", num, \"is\", result)\n# pgm to check whether a number is pos neg or zero\nnum=int(input(\"Enter the number to check : \"))\nif num>0:\n    print(\"Entered Numbered is positive\")\nelif num<0:\n    print(\"Entered Numbered is Negative\")\nelse:\n    print(\"Entered number is zero\")",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "x = count_words(s)\nprint(\"Number of words in the sentence: \" ,x)\n# or\nx=(input(\"enter the sentence:\"))\nwordcount=1\nfor i in x:\n    if i.isspace():\n        wordcount+=1\nprint(wordcount)\n# uppercase letters",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "year = int(input('enter year'))\nif year % 400 == 0:\n  print('it is a leap year')\nelif year % 4 == 0:\n  print('it is a leap year')\nelif year % 100 == 0:\n  print('not a leap year')\nelse:\n  print('not a leap year')\n# Armstrong",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\nrev = 0\nwhile number > 0:\n    digit = number % 10\n    rev = rev * 10 + digit\n    number //= 10\nprint(rev)\n# Find the sum of digits in the reversed number\nsum = 0\nwhile rev > 0:",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "rev",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "rev = 0\nwhile number > 0:\n    digit = number % 10\n    rev = rev * 10 + digit\n    number //= 10\nprint(rev)\n# Find the sum of digits in the reversed number\nsum = 0\nwhile rev > 0:\n    digit = rev % 10",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "sum = 0\nwhile rev > 0:\n    digit = rev % 10\n    sum += digit\n    rev //= 10\nprint(sum)\n#odd or even\nnum = int(input(\"Enter a number: \"))\nif (num % 2) == 0:\n   print(num,\" is Even\")",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Imp-pgms",
+        "description": "Imp-pgms",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif (num % 2) == 0:\n   print(num,\" is Even\")\nelse:\n   print(num,\" is Odd\")\n#pgm to check greatest among 3 numbers using operators\na=int(input(\"Enter the First Number : \"))\nb=int(input(\"Enter the Second Number : \"))\nc=int(input(\"Enter the Third Number : \"))\nif (a>b and a>c):",
+        "detail": "Imp-pgms",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "Lambda",
+        "description": "Lambda",
+        "peekOfCode": "def myfunc(n):#n decalred here\n    return lambda a:a%n #a declared here\nd=myfunc(2) #value of n stored in d\nprint(d(11)) #d printed with a \n#Another example\ndef myfunc(r):\n    return lambda a,b:a*b*r\nd=myfunc(6)\nprint(d(4,5))",
+        "detail": "Lambda",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "Lambda",
+        "description": "Lambda",
+        "peekOfCode": "def myfunc(r):\n    return lambda a,b:a*b*r\nd=myfunc(6)\nprint(d(4,5))",
+        "detail": "Lambda",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Lambda",
+        "description": "Lambda",
+        "peekOfCode": "x = lambda a,b,c: a*b*c #argument(s) : expression (only 1)\nprint(x(5,6,7)) \nprint(x(1,2,3))\n#lamda inside a function\ndef myfunc(n):#n decalred here\n    return lambda a:a%n #a declared here\nd=myfunc(2) #value of n stored in d\nprint(d(11)) #d printed with a \n#Another example\ndef myfunc(r):",
+        "detail": "Lambda",
+        "documentation": {}
+    },
+    {
+        "label": "loginSystem",
+        "kind": 2,
+        "importPath": "Loginsys",
+        "description": "Loginsys",
+        "peekOfCode": "def loginSystem(usr,pwd):\n    if usr==\"Hamdan\" and pwd==\"123\":\n        return True\n    else:\n        return False\nusername=input(\"Enter the username : \")\npassword=input(\"Enter the password : \")\nverified=loginSystem(username,password)\nif verified == True:\n    print('Access Granted')",
+        "detail": "Loginsys",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 2,
+        "importPath": "module2",
+        "description": "module2",
+        "peekOfCode": "def greeting(name):\n    print(\"name ,\"+ name)",
+        "detail": "module2",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class MyClass: #AOa\n    x=5 #prop/attribute\np1=MyClass() #object/instance\nprint(p1.x) #to access the attribute\nclass New: \n    x=15\n    y=25\np2=New()\nprint(p2.x,p2.y)\n#__init__ function  ",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New: \n    x=15\n    y=25\np2=New()\nprint(p2.x,p2.y)\n#__init__ function  \nclass MyClass:\n    def __init__(self,name,place,age):\n        self.name=name\n        self.age=age",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class MyClass:\n    def __init__(self,name,place,age):\n        self.name=name\n        self.age=age\n        self.place=place\np1=MyClass(\"John\",\"India\",30) \nprint(p1.name)\nprint(p1.place)\nprint(p1.age)\n#Q) Create a class named person , use __init__ to assign values for place and house number",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Person:\n    def __init__(self,place,houseno):\n        self.place=place\n        self.houseno=houseno\np3=Person(\"India\",33)\nprint(p3.place,p3.houseno)\n#__str__ function\nclass Person:\n    def __init__(self,name,place,age):\n        self.name=name",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Person:\n    def __init__(self,name,place,age):\n        self.name=name\n        self.place=place\n        self.age=age \n    def __str__(self):\n        return f\"{self.name}{self.place}({self.age})\" #specifier used.\np4=Person(\"Hamdan \",\" India \",20)\nprint(p4)\n#Q)create a class and object to print the job and salary using str() fn.",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Test",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Test:\n    def __init__(self,job,salary):\n        self.job=job\n        self.salary=salary\n    def __str__(self):\n        return f\"{self.job}{self.salary}\"\np=Test(\"Developer \",600000)\nprint(p)\n#Object Methods\nclass New:",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New:\n    def __init__(myobj,name,age):\n        myobj.name=name\n        myobj.age=age\n    def myfunc(example): #method\n        print(\"I'm\",example.age,\"Years old\")\np5=New(\"Hamdan\",20)\np5.age=30 #modifying values\nprint(p5.name,p5.age)\n#create a class and object also contain methods to print the dress and its price",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Shop",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Shop:\n    def __init__(self,dress,price):\n        self.dress=dress\n        self.price=price\n    def myfunc(self):\n        print(\"Product is \",self.dress,\",Price =\",self.price)\npp=Shop(\"Shirt\",2500)\npp.myfunc()\n#Q) Create a class and object to print the name and address of a person.\nclass Person:",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Person:\n    def __init__(self,Name,address):\n        self.Name=Name\n        self.address=address\n    def myfunc(self):\n        print(\"NAME- \",self.Name,\" ADDRESS - \",self.address)\np=Person(\"Hamdan\",\"Angadipuram\")\np.myfunc()\n#Q) create a class and object to print the phone and its price\nclass New:",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New:\n    def __init__(myobj,Phone,Price):\n        myobj.Phone=Phone\n        myobj.Price=Price\n    def myfunc(self):\n        print(\"Name - \",self.Phone,\", Price -\",self.Price)\np6=New(\"IPhone\",60000)\np6.Price=55000 #modifying values\np6.myfunc()\n# #deleting a prop inside object",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class person:\n    pass #to avoid error\n#Inheritance\n#class inside another class\nclass New: #parent class\n    def __init__(myobj,Phone,Price):\n        myobj.Phone=Phone\n        myobj.Price=Price\n    def myfunc(self):\n        print(\"Name - \",self.Phone,\"Price -\",self.Price)",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New: #parent class\n    def __init__(myobj,Phone,Price):\n        myobj.Phone=Phone\n        myobj.Price=Price\n    def myfunc(self):\n        print(\"Name - \",self.Phone,\"Price -\",self.Price)\nclass New2(New): #child class\n    def __init__(myobj,Phone,price):\n        New.__init__(myobj,Phone,price) #assigning to parent\np6=New2(\"IPhone\",60000)",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New2",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New2(New): #child class\n    def __init__(myobj,Phone,price):\n        New.__init__(myobj,Phone,price) #assigning to parent\np6=New2(\"IPhone\",60000)\np6.myfunc()#add the text as well\n#POLYMORPHISM (same module name)\nclass Car:\n    def __init__(self,carname):\n        self.carname=carname\n    def access(self):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Car:\n    def __init__(self,carname):\n        self.carname=carname\n    def access(self):\n        print(\"DRIVE\")\nclass Ship:\n    def __init__(self,shipname):\n        self.shipname=shipname\n    def access(self):\n        print(\"SAIL\")",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Ship",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Ship:\n    def __init__(self,shipname):\n        self.shipname=shipname\n    def access(self):\n        print(\"SAIL\")\nclass Plane:\n    def __init__(self,planename):\n        self.planename=planename\n    def access(self):\n        print(\"FLY\")",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Plane",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Plane:\n    def __init__(self,planename):\n        self.planename=planename\n    def access(self):\n        print(\"FLY\")\n#objects together\nd=Car(\"Mustang\")\ns=Ship(\"Titanic\")\np=Plane(\"Boeing\")\nfor x in (d,s,p):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New: #parent class\n    def __init__(myobj,Phone,Price):\n        myobj.Phone=Phone\n        myobj.Price=Price\n    def myfunc(self):\n        print(\"Name - \",self.Phone,\"Price - \",self.Price)\np2=New(\"Samsung\",50000)   \np2.myfunc()     \nclass New2(New): #child class\n    def __init__(myobj,Phone,price,year):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "New2",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class New2(New): #child class\n    def __init__(myobj,Phone,price,year):\n        super().__init__(Phone,price) #attributes of method of parent class and no need of self\n        myobj.year=year #adding parameter to child class\n    def myfunc2(self): #adding method to child class\n        print(\"Name - \",self.Phone,\"Price - \",self.Price,\"Year - \",self.year)\np6=New2(\"IPhone\",60000,2022)\np6.myfunc2()\n#to add value\n# class New2(New):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Car:\n    def __init__(self,make,model,year,price,condition):\n        self.make=make\n        self.model=model\n        self.year=year\n        self.price=price\n        self.condition=condition\n    def __str__(self):\n        return f\"{self.make}{self.model}{self.year}{self.price}{self.condition}\"\n    def myfunc(self):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Car2",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Car2(Car):\n    def __init__(self,make,model,year,price,condition):\n        Car.__init__(self,make,model,year,price,condition)\n    def myfunc2(self):\n        print(\"Name of car : \",self.make,\" Model - \",self.model,\"Price - \",self.price,\n              \"Year - \",self.year,\n              \"Condition - \",self.condition)\nclass Car3(Car):\n    pass\nclass Car4(Car):",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Car3",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Car3(Car):\n    pass\nclass Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 1\")\np1=Car(\"TOYOTA\",\"Camry\",2008,25000,\"Excellent\")\np1.myfunc()\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "Car4",
+        "kind": 6,
+        "importPath": "OOPS",
+        "description": "OOPS",
+        "peekOfCode": "class Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 1\")\np1=Car(\"TOYOTA\",\"Camry\",2008,25000,\"Excellent\")\np1.myfunc()\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")\nprint(p2.make)\np2.myfunc()",
+        "detail": "OOPS",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "patternQns",
+        "description": "patternQns",
+        "peekOfCode": "n = int(input(\"Enter the number of rows: \"))\nprint(\"Type 7\\n\")\nfor i in range(1,n+1):#rows\n    for j in range (1,i+1):#columns\n        print(j,end=' ')\n    print()\n#numbers inorder pattern\nn=int(input(\"Enter the number : \"))\nprint(\"Type 8\\n\")\ncount = 1",
+        "detail": "patternQns",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "patternQns",
+        "description": "patternQns",
+        "peekOfCode": "count = 1\nfor i in range(n):\n    for j in range(i + 1): #column\n        print(count, end=\" \")\n        count += 1\n    print()",
+        "detail": "patternQns",
+        "documentation": {}
+    },
+    {
+        "label": "Maths",
+        "kind": 6,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "class Maths:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(n):#method\n        print(68)\nclass Hindi:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(n):\n        print(98)",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "Hindi",
+        "kind": 6,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "class Hindi:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(n):\n        print(98)\nclass Science:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(n):\n        print(90)",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "Science",
+        "kind": 6,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "class Science:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(n):\n        print(90)\nm=Maths(\"\")\nh=Hindi(\"\")\ns=Science(\"\")\nfor x in m,h,s:\n    x.mark()",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "pal",
+        "kind": 2,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "def pal(num):\n    x=num[::-1]\n    if x==num:\n        print(\"Entered string is a Palindrome\")\n    else:\n        print(\"Entered string is Not a Palindrome\")\np=input(\"Enter the string : \")\npal(p)\n#Print a reversed pyramid pattern in Python.\nnum=(int(input(\"Enter the number of rows : \")))",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "sum_list",
+        "kind": 2,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "def sum_list(numbers):\n    sum=0\n    for i in numbers:\n        if int(i)%2==0:\n            sum+=int(i)\n    print(sum)\nnum=input(\"Enter the numbers comma separated : \").split(',')#to make it a list\nsum_list(num)\n#Write a Python program to find the sum of numbers in a Tuple?\ndef sum_list(numbers):",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "sum_list",
+        "kind": 2,
+        "importPath": "pyexam",
+        "description": "pyexam",
+        "peekOfCode": "def sum_list(numbers):\n    sum=0\n    for i in numbers:\n            sum+=int(i)\n    print(sum)\nnumbers=input(\"Enter the numbers comma separated : \").split(',')\nnumbers=tuple(map(int,numbers))#convert it into tuple\nsum_list(numbers)\n#create three classes: Maths, Hindi, and Science,\n#and they all have a method called mark() and print the marks calling mark().",
+        "detail": "pyexam",
+        "documentation": {}
+    },
+    {
+        "label": "Qn",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Qn:\n    x=5\np=Qn()\nprint(p.x)\n#create a class and objects and print the numbers 200, 105.\nclass Qn2:\n    x=200\n    y=105\np=Qn2()\nprint(p.x,\",\",p.y)",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Qn2",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Qn2:\n    x=200\n    y=105\np=Qn2()\nprint(p.x,\",\",p.y)\n#Create a class named Car, use the __init__() function to assign values for Name and color.\nclass Car:\n    def __init__(self,name,color):\n        self.name=name\n        self.color=color",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Car:\n    def __init__(self,name,color):\n        self.name=name\n        self.color=color\np=Car(\"Mercedez-Benz\",\"Black\")\nprint(p.name,p.color)\n#Create a class and object also add methods to print the Bike and its price.\nclass Car:\n    def __init__(self,name,price):\n        self.name=name",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Car:\n    def __init__(self,name,price):\n        self.name=name\n        self.price=price\n    def fn(self):\n        print(\"The name of the Bike is \",self.name,\" & Price is \",self.price)\np2=Car(\"Kawazaki\",100000)\np2.fn() #object.method()\n#modify object property.\np2.price=250000",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "School",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class School:\n    def __init__(self,name,rollno):\n        self.name=name\n        self.rollno=rollno\n    def printname(self):\n        print(\"The name of the student is \",self.name,\" & the roll number is\",self.rollno)\n#Create a class named Student, which will inherit the properties and methods from the \"School\"class:\nclass Student(School):\n    def __init__(self,name,rollno,age):\n        School.__init__(self,name,rollno)",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Student(School):\n    def __init__(self,name,rollno,age):\n        School.__init__(self,name,rollno)\n#add a properties in a Student class and print the values\n        self.age=age\n#add method in Student class and print the method proprty values.\n    def printname2(self):\n        print(\"The name of the student is \",self.name,\"  the roll number is\",self.rollno,\" & Age is \",self.age)\np3=School(\"Hamdan\",39)\np3.printname()",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Maths",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Maths:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(self):\n        print(\"Passed\")\nclass Hindi:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(self):\n        print(\"Passed\")",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Hindi",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Hindi:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(self):\n        print(\"Passed\")\nclass Science:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(self):\n        print(\"Passed\")",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "Science",
+        "kind": 6,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "class Science:\n    def __init__(self,marks):\n        self.marks=marks\n    def mark(self):\n        print(\"Passed\")\np1=Maths(\"92\")\np2=Hindi(\"88\")\np3=Science(\"97\")\nfor x in (p1,p2,p3):\n    x.mark()",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def z(lname):\n    print(\"I'm \"+ lname)\nz(\"Hamdan\")\n#create and call a function passing 2 values\ndef z(fname,age):\n    print(\"My name is \",fname,\"I'm\",age,\"Years old\")\nz(\"Hamdan\",20)\n#create and call a function -pass two arguments.using *arg and **kwargs\ndef p(*students):#*arg\n    print(\"First student is\",students[0])",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def z(fname,age):\n    print(\"My name is \",fname,\"I'm\",age,\"Years old\")\nz(\"Hamdan\",20)\n#create and call a function -pass two arguments.using *arg and **kwargs\ndef p(*students):#*arg\n    print(\"First student is\",students[0])\np(\"Hamdan\",\"Ali\")\ndef p(**student):#**kwargs\n    print(\"First student is \" + student[\"fname\"])\np(fname=\"Hamdan\",lname=\"Ali\")\\",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def p(*students):#*arg\n    print(\"First student is\",students[0])\np(\"Hamdan\",\"Ali\")\ndef p(**student):#**kwargs\n    print(\"First student is \" + student[\"fname\"])\np(fname=\"Hamdan\",lname=\"Ali\")\\\n#create and call a function-default parameter value.\ndef new(place=\"Mexico\"):\n    print(\"I'm from \",place)\nnew()",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def p(**student):#**kwargs\n    print(\"First student is \" + student[\"fname\"])\np(fname=\"Hamdan\",lname=\"Ali\")\\\n#create and call a function-default parameter value.\ndef new(place=\"Mexico\"):\n    print(\"I'm from \",place)\nnew()\n#create and call a function -print using tuple and set data type.\ndef test(lst):\n    for x in lst:",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def new(place=\"Mexico\"):\n    print(\"I'm from \",place)\nnew()\n#create and call a function -print using tuple and set data type.\ndef test(lst):\n    for x in lst:\n        print (x)\ntup=(\"Hamdan\",\"Ali\",\"Ameen\")\ntest(tup)\nset={\"Hamdan\",\"Ali\",\"Ameen\"}",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def test(lst):\n    for x in lst:\n        print (x)\ntup=(\"Hamdan\",\"Ali\",\"Ameen\")\ntest(tup)\nset={\"Hamdan\",\"Ali\",\"Ameen\"}\ntest(set)\n#create function passing pass statement.\ndef testing():\n    pass",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "testing",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def testing():\n    pass\n#create and print the lambda function passing number of arguments.(add,multiply,subtract)\ndef fn(n,b):\n    return lambda a,b:(a*b*a)+(n-a)\nd=fn(2,1)\nprint(d(6,1))\n#create an array  and print the values.\nx=[\"Hamdan\",\"Ali\",\"Ameen\"]\nprint(x)",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "fn",
+        "kind": 2,
+        "importPath": "Question",
+        "description": "Question",
+        "peekOfCode": "def fn(n,b):\n    return lambda a,b:(a*b*a)+(n-a)\nd=fn(2,1)\nprint(d(6,1))\n#create an array  and print the values.\nx=[\"Hamdan\",\"Ali\",\"Ameen\"]\nprint(x)\n#print length of an array.\nprint(len(x))\n#Lopping an array",
+        "detail": "Question",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "random1",
+        "description": "random1",
+        "peekOfCode": "my_list = [1, 2, 3, 4, 5]\nprint(x.choice(my_list))\nx.shuffle(my_list)\nprint(my_list)\n#choice,random,randint,shuffle are all in the same module",
+        "detail": "random1",
+        "documentation": {}
+    },
+    {
+        "label": "Shop",
+        "kind": 6,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "class Shop:\n    def __init__(self,name,number):\n        self.name=name\n        self.number = number\n    def myfn(self):\n        print(\"Nmae - \",self.name, \"Number -\",self.number)\npp=Shop(\"Hamdan\",22)\npp.myfn()",
+        "detail": "test",
+        "documentation": {}
+    }
+]
