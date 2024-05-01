@@ -219,8 +219,12 @@ class Car:
               "Year - ",self.year,
               "Condition - ",self.condition)
 
+print("Car 1")
+p1=Car("TOYOTA","Camry",2008,25000,"Excellent")
+p1.myfunc()
+
 class Car2(Car):
-    def __init__(self,make,model,year,price,condition):
+    def __init__(self,make,model,year,price,condition,year2):
         Car.__init__(self,make,model,year,price,condition)
 
     
@@ -235,11 +239,6 @@ class Car4(Car):
     def __init__(self,make,model,year,price,condition):
         super().__init__(make,model,year,price,condition)
     
-
-print("Car 1")
-p1=Car("TOYOTA","Camry",2008,25000,"Excellent")
-p1.myfunc()
-
 print("Car 2")
 p2=Car2("Honda","Civic",2010,25600,"Excellent")
 print(p2.make)

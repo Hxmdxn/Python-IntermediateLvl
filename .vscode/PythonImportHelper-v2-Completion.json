@@ -625,7 +625,7 @@
         "kind": 6,
         "importPath": "OOPS",
         "description": "OOPS",
-        "peekOfCode": "class Car2(Car):\n    def __init__(self,make,model,year,price,condition):\n        Car.__init__(self,make,model,year,price,condition)\n    def myfunc2(self):\n        print(\"Name of car : \",self.make,\" Model - \",self.model,\"Price - \",self.price,\n              \"Year - \",self.year,\n              \"Condition - \",self.condition)\nclass Car3(Car):\n    pass\nclass Car4(Car):",
+        "peekOfCode": "class Car2(Car):\n    def __init__(self,make,model,year,price,condition,year2):\n        Car.__init__(self,make,model,year,price,condition)\n    def myfunc2(self):\n        print(\"Name of car : \",self.make,\" Model - \",self.model,\"Price - \",self.price,\n              \"Year - \",self.year,\n              \"Condition - \",self.condition)\nclass Car3(Car):\n    pass\nclass Car4(Car):",
         "detail": "OOPS",
         "documentation": {}
     },
@@ -634,7 +634,7 @@
         "kind": 6,
         "importPath": "OOPS",
         "description": "OOPS",
-        "peekOfCode": "class Car3(Car):\n    pass\nclass Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 1\")\np1=Car(\"TOYOTA\",\"Camry\",2008,25000,\"Excellent\")\np1.myfunc()\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")",
+        "peekOfCode": "class Car3(Car):\n    pass\nclass Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")\nprint(p2.make)\np2.myfunc()\nprint(\"Car 3\")",
         "detail": "OOPS",
         "documentation": {}
     },
@@ -643,7 +643,7 @@
         "kind": 6,
         "importPath": "OOPS",
         "description": "OOPS",
-        "peekOfCode": "class Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 1\")\np1=Car(\"TOYOTA\",\"Camry\",2008,25000,\"Excellent\")\np1.myfunc()\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")\nprint(p2.make)\np2.myfunc()",
+        "peekOfCode": "class Car4(Car):\n    def __init__(self,make,model,year,price,condition):\n        super().__init__(make,model,year,price,condition)\nprint(\"Car 2\")\np2=Car2(\"Honda\",\"Civic\",2010,25600,\"Excellent\")\nprint(p2.make)\np2.myfunc()\nprint(\"Car 3\")\np3=Car2(\"SUZUKI\",\"Spresso\",2023,50000,\"Good\")\nprint(p3.make,p3.model,p3.price,p3.year,p3.condition)",
         "detail": "OOPS",
         "documentation": {}
     },
@@ -882,11 +882,29 @@
         "documentation": {}
     },
     {
-        "label": "Shop",
+        "label": "Hamdan",
         "kind": 6,
         "importPath": "test",
         "description": "test",
-        "peekOfCode": "class Shop:\n    def __init__(self,name,number):\n        self.name=name\n        self.number = number\n    def myfn(self):\n        print(\"Nmae - \",self.name, \"Number -\",self.number)\npp=Shop(\"Hamdan\",22)\npp.myfn()",
+        "peekOfCode": "class Hamdan:\n    def __init__(self,name,age):\n        self.name=name\n        self.age=age\n    def myfn(self):\n        print(\"my name is\",self.name,\"and I'm \",self.age,\"years old.\")\np=Hamdan(\"Hamdan\",25)\np.myfn()\nclass Ali(Hamdan):\n    def __init__(self, name, age):",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "Ali",
+        "kind": 6,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "class Ali(Hamdan):\n    def __init__(self, name, age):\n        super().__init__(name, age)\n    def myfn(self):\n        print(\"my name is\", self.name, \"and I'm \", self.age, \"years old.\")\np2 = Ali(\"Ali\", 30)  # Corrected quotation marks around \"Ali\"",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "p2 = Ali(\"Ali\", 30)  # Corrected quotation marks around \"Ali\"",
         "detail": "test",
         "documentation": {}
     }
